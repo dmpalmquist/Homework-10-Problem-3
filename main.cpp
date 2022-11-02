@@ -1,5 +1,17 @@
 #include <iostream>
+#include <iomanip>
+
+using namespace std;
 
 int main() {
-  std::cout << "Hello World!\n";
+  int arrsize = 0;
+
+  cout << "Enter array size: ";
+  cin >> arrsize;
+  cout << endl;
+
+  int Seq[arrsize];
+
+
+  
 }

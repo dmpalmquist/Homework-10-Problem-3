@@ -15,3 +15,23 @@ int main() {
 
   
 }
+
+void fillArray(int list[], int listSize){
+
+  cout << "Enter " << listSize << " integers: ";
+
+  for (int index = 0; index < listSize; index++)
+    cin >> list[index]; 
+
+  return;
+}
+
+int sort(const int mymat[], int listSize){
+  int max = 0;
+  int num = 0;
+  int maxF[num];
+  int col = 0;
+  int newArraysize;
+  int newArray;
+  
+}
